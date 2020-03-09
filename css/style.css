@@ -1,0 +1,306 @@
+/* RESET CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, images, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+ caption, tbody,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* Main */
+
+html {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background: url(/img/bg.png) repeat-x;
+    background-color: #FFF;
+    padding: 0px 0 20px 0;
+    line-height: 1.5rem;
+}
+
+div.head {
+    background: url(/img/search.png) no-repeat 90% 50%,
+        url(/img/bag.png) no-repeat 100% 50%;
+    height: 60px;
+    color: #ffffff;
+    font: 300 25px Roboto,sans-serif;
+    text-align: left;
+    line-height: 60px;
+}
+
+div.head span {
+    background: url(/img/apple-logo.png) no-repeat 50% 40%;
+    width: 23px;
+    height: 60px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+div.container {
+    max-width: 780px;
+    margin: 0px 10px;
+}
+
+p,
+div.timer,
+h1,
+h2 {
+    text-align: left;
+}
+
+div.head-section,
+div.main-section {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+p.date {
+    color: #9c9c9c;
+}
+
+h1.congrat {
+    margin-top: 30px;
+    font: 400 33px/33px Roboto, sans-serif;
+}
+
+h2.follow {
+    color: #3B5998;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+div.main {
+    margin-top: 30px;
+}
+
+div.main-div {
+}
+
+div.logo-cover {
+    margin-right: 20px;
+    margin-bottom: 30px;
+    height: 181px;
+    width: 181px;
+    /*background: url(../images/logo.jpg) no-repeat;*/
+    float:left;
+}
+
+img.logo {
+    padding: 10px 0 0 10px;
+    height: 160px;
+    width: 160px;
+}
+
+div.main-center {
+    float: left;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+.btn {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    background-color: #74b65f;
+    font: 700 25px Roboto;
+    width: auto;
+    float:left;
+    margin-top: 5px;
+}
+
+span.free-bonus {
+    display: inline-block;
+    float:left;
+    color: #7eab37;
+    line-height: 40px;
+    padding-left: 10px;
+    position: relative;
+    margin-top: 5px;
+}
+
+div.main-center h1 {
+    font: 300 32px Roboto,sans-serif;
+}
+
+div.main-right {
+    float: right;
+}
+
+div.develop {
+    color: #767676;
+    font-weight: 700;
+}
+
+div.develop:before {
+    content: " ";
+    background: url(developer.html) no-repeat;
+    height: 13px;
+    width: 13px;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+div.raiting {
+    text-align: left;
+    color: #b4b4b4;
+    font: 400 14px Roboto, sans-serif;
+    margin-bottom: 30px;
+}
+
+div.raiting:before {
+    content: " ";
+    display: inline-block;
+    margin-right: 3px;
+    width: 69px;
+    height: 12px;
+    background: url(/img/stars.png) no-repeat;
+}
+
+p.top {
+    margin-top: 15px;
+}
+
+p.bottom {
+    margin-bottom: 15px;
+}
+
+div.timer {
+    clear: both;
+}
+
+p.comm-header {
+    font: 400 20px Roboto,sans-serif;
+    color: #676767;
+    margin-bottom: 10px;
+}
+
+span.time {
+    font: 400 14px Roboto,sans-serif;
+    color: #a4a4a4;
+    padding-left:3px;
+}
+
+div.addCommentBox {
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+}
+
+input.commentTextBox {
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 60%;
+    border-radius: 3px;
+    border: 1px solid #acacac;
+    padding-left:10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+}
+
+span.comm-btn {
+    cursor:pointer;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    background-color: #acacac;
+    border-radius: 3px;
+    height: 40px;
+    width: 35%;
+    min-width: 90px;
+    font: 700 20px/40px Roboto;
+    float: right;
+}
+.avatar
+{
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+@media (max-width: 500px) {
+    .comment-images {
+        width:100%;
+    }
+    div.main {
+        margin: 0;
+    }
+    div.logo-cover {
+        background:none;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    images.logo {
+        width: 100%;
+        height: 100%;
+        padding: 10px 0;
+        margin: 0;
+    }
+    div.main-center {
+        width: 100%;
+    }
+    .btn {
+        width: 100%;
+    }
+    span.free-bonus {
+        padding-top: 5px;
+        line-height: 20px;
+    }
+    div.main-right {
+        width: 100%;
+        float: right;
+        text-align: right;
+        position: relative;
+        top: 30px;
+    }
+
+}
